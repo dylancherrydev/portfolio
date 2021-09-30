@@ -25,6 +25,29 @@ function App() {
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>
         </div>
       </div>
+      <div class="pb-16 pl-16 pr-16">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl text-red-400 font-bold mb-12">Projects</h2>
+          <div>
+            <div class="text-center content-center border-4 rounded-lg border-red-400 max-w-sm  p-8">
+              <h3 class="text-3xl text-white p-4">Tastogether</h3>
+              <img class="w-32 rounded-md mx-auto" src="https://res.cloudinary.com/dploqe2ts/image/upload/v1633025089/tastogether_iixk95.png" alt="Screencap of Tastogether project."/>
+              <p class="text-white p-4">Ruby on Rails | Heroku</p>
+              <p class="text-red-300 p-2">Tastogether allows food lovers to connect with other food lovers and create shared tasting experiences.</p>
+              <ul class="text-gray-300 text-left">
+                <li>Worked alongside my teammates to come up with and prioritize features.</li>
+                <li>Helped design and build the application's schema.</li>
+                <li>Initialized and configured the application's Pundit policies.</li>
+                <li>Helped build the application's seed file.</li>
+                <li>Installed and configured Geocoder.</li>
+                <li>Worked on front-end design alongside a colleague and built various view
+                  pages.</li>
+                <li>Implemented and designed various features such as a working calendar and modal.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </body>
   );
 }
