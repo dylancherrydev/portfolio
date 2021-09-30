@@ -28,7 +28,7 @@ function App() {
       <div class="pb-16 pl-16 pr-16">
         <div class="text-center mb-12">
           <h2 class="text-4xl text-red-400 font-bold mb-12">Projects</h2>
-          <div>
+          <div class="md:flex justify-between pl-16 pr-16">
             <div class="text-center content-center border-4 rounded-lg border-red-400 max-w-sm  p-8">
               <h3 class="text-3xl text-white p-4">Tastogether</h3>
               <img class="w-32 rounded-md mx-auto" src="https://res.cloudinary.com/dploqe2ts/image/upload/v1633025089/tastogether_iixk95.png" alt="Screencap of Tastogether project."/>
