@@ -4,7 +4,7 @@ function App() {
       <div class="pt-16 pl-16 pr-16 text-center">
         <h1 class="text-5xl text-red-400">Dylan Cherry</h1>
         <div class="md:flex space-x-4 pt-12">
-          <div class="border-b-4 border-red-400 pb-12">
+          <div class="border-b-4 border-red-400 pb-16">
             <div class="md:items-center pb-12 w-200px">
               <img class="w-64 rounded-md mx-auto border-4 border-red-400" src="https://res.cloudinary.com/dploqe2ts/image/upload/v1633016623/T02NE0241-U026Z2X2YV7-a31615815abe-512_tfvvjs.png" alt="Portrait of Dylan Cherry"></img>
             </div>
@@ -19,14 +19,14 @@ function App() {
         <div class="text-center mb-12">
           <h2 class="text-4xl text-red-400 font-bold">About Me</h2>
         </div>
-        <div class="text-white border-b-4 border-red-400 pb-12">
+        <div class="text-white border-b-4 border-red-400 pb-16">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>
         </div>
       </div>
       <div class="pb-16 pl-16 pr-16">
-        <div class="text-center mb-12 border-b-4 border-red-400 pb-16">
+        <div class="text-center mb-12 border-b-4 border-red-400 pb-20">
           <h2 class="text-4xl text-red-400 font-bold mb-16">Projects</h2>
           <div class="md:flex pl-16 pr-16 justify-between">
             <div class="text-center content-center border-4 rounded-lg border-red-400 max-w-sm  p-8">
