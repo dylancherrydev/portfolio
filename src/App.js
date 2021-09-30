@@ -26,7 +26,7 @@ function App() {
         </div>
       </div>
       <div class="pb-16 pl-16 pr-16">
-        <div class="text-center mb-12 border-b-4 border-red-400 pb-20">
+        <div class="text-center border-b-4 border-red-400 pb-20">
           <h2 class="text-4xl text-red-400 font-bold mb-16">Projects</h2>
           <div class="md:flex pl-16 pr-16 justify-between">
             <div class="text-center content-center border-4 rounded-lg border-red-400 max-w-sm  p-8">
@@ -44,6 +44,11 @@ function App() {
               <p class="text-red-300 p-2">[Airbnb clone]</p>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="pb-16 pl-16 pr-16">
+        <div class="text-center mb-12 border-b-4 border-red-400 pb-20">
+          <h2 class="text-4xl text-red-400 font-bold mb-16">Tech Stack</h2>
         </div>
       </div>
     </body>
