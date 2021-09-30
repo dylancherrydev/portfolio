@@ -25,6 +25,27 @@ function App() {
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>
         </div>
       </div>
+      <div class="pb-16 pl-16 pr-16">
+        <div class="text-center mb-12 border-b-4 border-red-400 pb-16">
+          <h2 class="text-4xl text-red-400 font-bold mb-16">Projects</h2>
+          <div class="md:flex pl-16 pr-16 justify-between">
+            <div class="text-center content-center border-4 rounded-lg border-red-400 max-w-sm  p-8">
+              <h3 class="text-3xl text-white p-4">Tastogether</h3>
+              <img class="w-32 rounded-md mx-auto mt-4" src="https://res.cloudinary.com/dploqe2ts/image/upload/v1633025089/tastogether_iixk95.png" alt="Screencap of Tastogether project."/>
+              <p class="text-white pt-8 p-4">Ruby on Rails | Heroku</p>
+              <p class="text-red-300 p-2">Tastogether allows food lovers to connect with other food lovers and create shared tasting experiences.</p>
+            </div>
+            <div class="text-center content-center border-4 rounded-lg border-red-400 max-w-sm  p-8">
+              <h3 class="text-3xl text-white p-4">Soundlet</h3>
+              <img class="w-64 rounded-md mx-auto mt-4" src="https://res.cloudinary.com/dploqe2ts/image/upload/v1633031003/soundlet_kqhciv.png" alt="Screencap of Soundlet project."/>
+              <p class="text-white pt-8 p-4">Ruby on Rails | Heroku</p>
+              <p class="text-red-300 p-2">Whether you're looking to rent someone's equipment or rent out your own gear,
+                Soundlet will make your experience effortless!</p>
+              <p class="text-red-300 p-2">[Airbnb clone]</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </body>
   );
 }
