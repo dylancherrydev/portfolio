@@ -1,3 +1,8 @@
+import { FaJsSquare, FaHtml5, FaCss3Alt, FaReact, FaGithub, FaBootstrap } from "react-icons/fa";
+import { AiOutlineConsoleSql } from "react-icons/ai";
+import { SiTailwindcss, SiRails } from "react-icons/si";
+import { DiRuby } from "react-icons/di";
+
 function App() {
   return (
     <body class="md:text bg-gray-800">
@@ -50,36 +55,46 @@ function App() {
         <div class="text-center mb-12 border-b-4 border-red-400 pb-20">
           <h2 class="text-4xl text-red-400 font-bold mb-16">Tech Stack</h2>
           <ul class="grid grid-cols-4">
-            <li>
+            <li class="text-center">
+              <FaJsSquare class="text-red-400 text-6xl mx-auto mb-2"/>
               <p class="text-white">JavaScript</p>
             </li>
             <li>
+              <FaHtml5 class="text-red-400 text-6xl mx-auto mb-2" />
               <p class="text-white">HTML</p>
             </li>
             <li>
+              <FaCss3Alt class="text-red-400 text-6xl mx-auto mb-2" />
               <p class="text-white">CSS</p>
             </li>
             <li>
+              <FaReact class="text-red-400 text-6xl mx-auto mb-2" />
               <p class="text-white">React</p>
             </li>
             <li>
+              <FaGithub class="text-red-400 text-6xl mx-auto mb-2" />
               <p class="text-white">GitHub</p>
             </li>
             <li>
+              <AiOutlineConsoleSql class="text-red-400 text-6xl mx-auto mb-2" />
               <p class="text-white">SQL</p>
             </li>
             <li>
+              <SiTailwindcss class="text-red-400 text-6xl mx-auto mb-2" />
               <p class="text-white">TailwindCSS</p>
             </li>
             <li>
+              <FaBootstrap class="text-red-400 text-6xl mx-auto mb-2" />
               <p class="text-white">Bootstrap</p>
             </li>
           </ul>
           <ul class="grid grid-cols-2">
             <li>
+              <DiRuby class="text-red-400 text-6xl mx-auto mb-2" />
               <p class="text-white">Ruby</p>
             </li>
             <li>
+              <SiRails class="text-red-400 text-6xl mx-auto mb-2" />
               <p class="text-white">Rails</p>
             </li>
           </ul>
