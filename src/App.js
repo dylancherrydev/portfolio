@@ -38,15 +38,15 @@ function App() {
               <h3 class="text-3xl text-white p-4">Tastogether</h3>
               <img class="w-32 rounded-md mx-auto mt-4" src="https://res.cloudinary.com/dploqe2ts/image/upload/v1633025089/tastogether_iixk95.png" alt="Screencap of Tastogether project."/>
               <p class="text-white pt-8 p-4">Ruby on Rails | Heroku</p>
-              <p class="text-red-300 p-2">Tastogether allows food lovers to connect with other food lovers and create shared tasting experiences.</p>
+              <p class="text-red-400 p-2">Tastogether allows food lovers to connect with other food lovers and create shared tasting experiences.</p>
             </div>
             <div class="text-center content-center border-4 rounded-lg border-red-400 max-w-sm  p-8">
               <h3 class="text-3xl text-white p-4">Soundlet</h3>
+              <p class="text-white pb-2">[Airbnb clone]</p>
               <img class="w-64 rounded-md mx-auto mt-4" src="https://res.cloudinary.com/dploqe2ts/image/upload/v1633031003/soundlet_kqhciv.png" alt="Screencap of Soundlet project."/>
               <p class="text-white pt-8 p-4">Ruby on Rails | Heroku</p>
-              <p class="text-red-300 p-2">Whether you're looking to rent someone's equipment or rent out your own gear,
+              <p class="text-red-400 p-2">Whether you're looking to rent someone's equipment or rent out your own gear,
                 Soundlet will make your experience effortless!</p>
-              <p class="text-red-300 p-2">[Airbnb clone]</p>
             </div>
           </div>
         </div>
