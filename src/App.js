@@ -1,4 +1,4 @@
-import { FaJsSquare, FaHtml5, FaCss3Alt, FaReact, FaGithub, FaBootstrap } from "react-icons/fa";
+import { FaJsSquare, FaHtml5, FaCss3Alt, FaReact, FaGitSquare, FaBootstrap } from "react-icons/fa";
 import { AiOutlineConsoleSql } from "react-icons/ai";
 import { SiTailwindcss, SiRails } from "react-icons/si";
 import { DiRuby } from "react-icons/di";
@@ -74,8 +74,8 @@ function App() {
           </ul>
           <ul class="grid grid-cols-4 mb-8">
             <li>
-              <FaGithub class="text-red-400 text-6xl mx-auto mb-2" />
-              <p class="text-white">GitHub</p>
+              <FaGitSquare class="text-red-400 text-6xl mx-auto mb-2" />
+              <p class="text-white">Git</p>
             </li>
             <li>
               <AiOutlineConsoleSql class="text-red-400 text-6xl mx-auto mb-2" />
@@ -106,6 +106,9 @@ function App() {
       <div class="pb-16 pl-16 pr-16">
         <div class="text-center mb-12 border-b-4 border-red-400 pb-20">
           <h2 class="text-4xl text-red-400 font-bold mb-16">Contact Me</h2>
+          <ul class="grid grid-cols-3">
+            <li></li>
+          </ul>
         </div>
       </div>
     </body>
