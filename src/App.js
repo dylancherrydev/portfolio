@@ -1,7 +1,8 @@
-import { FaJsSquare, FaHtml5, FaCss3Alt, FaReact, FaGithub, FaBootstrap } from "react-icons/fa";
-import { AiOutlineConsoleSql } from "react-icons/ai";
+import { FaJsSquare, FaHtml5, FaCss3Alt, FaReact, FaGitSquare, FaBootstrap, FaGithub } from "react-icons/fa";
+import { AiOutlineConsoleSql, AiFillTwitterCircle } from "react-icons/ai";
 import { SiTailwindcss, SiRails } from "react-icons/si";
 import { DiRuby } from "react-icons/di";
+import { MdEmail } from "react-icons/md";
 
 function App() {
   return (
@@ -51,8 +52,8 @@ function App() {
           </div>
         </div>
       </div>
-      <div class="pb-16 pl-16 pr-16">
-        <div class="text-center mb-12 border-b-4 border-red-400 pb-20">
+      <div class="pl-16 pr-16">
+        <div class="text-center mb-16 border-b-4 border-red-400 pb-20">
           <h2 class="text-4xl text-red-400 font-bold mb-16">Tech Stack</h2>
           <ul class="grid grid-cols-4 mb-8">
             <li class="text-center">
@@ -60,46 +61,63 @@ function App() {
               <p class="text-white">JavaScript</p>
             </li>
             <li>
-              <FaHtml5 class="text-red-400 text-6xl mx-auto mb-2" />
+              <FaHtml5 class="text-red-400 text-6xl mx-auto mb-2"/>
               <p class="text-white">HTML</p>
             </li>
             <li>
-              <FaCss3Alt class="text-red-400 text-6xl mx-auto mb-2" />
+              <FaCss3Alt class="text-red-400 text-6xl mx-auto mb-2"/>
               <p class="text-white">CSS</p>
             </li>
             <li>
-              <FaReact class="text-red-400 text-6xl mx-auto mb-2" />
+              <FaReact class="text-red-400 text-6xl mx-auto mb-2"/>
               <p class="text-white">React</p>
             </li>
           </ul>
           <ul class="grid grid-cols-4 mb-8">
             <li>
-              <FaGithub class="text-red-400 text-6xl mx-auto mb-2" />
-              <p class="text-white">GitHub</p>
+              <FaGitSquare class="text-red-400 text-6xl mx-auto mb-2"/>
+              <p class="text-white">Git</p>
             </li>
             <li>
-              <AiOutlineConsoleSql class="text-red-400 text-6xl mx-auto mb-2" />
+              <AiOutlineConsoleSql class="text-red-400 text-6xl mx-auto mb-2"/>
               <p class="text-white">SQL</p>
             </li>
             <li>
-              <SiTailwindcss class="text-red-400 text-6xl mx-auto mb-2" />
+              <SiTailwindcss class="text-red-400 text-6xl mx-auto mb-2"/>
               <p class="text-white">TailwindCSS</p>
             </li>
             <li>
-              <FaBootstrap class="text-red-400 text-6xl mx-auto mb-2" />
+              <FaBootstrap class="text-red-400 text-6xl mx-auto mb-2"/>
               <p class="text-white">Bootstrap</p>
             </li>
           </ul>
           <ul class="grid grid-cols-4">
             <li></li>
             <li>
-              <DiRuby class="text-red-400 text-6xl mx-auto mb-2" />
+              <DiRuby class="text-red-400 text-6xl mx-auto mb-2"/>
               <p class="text-white">Ruby</p>
             </li>
             <li>
-              <SiRails class="text-red-400 text-6xl mx-auto mb-2" />
+              <SiRails class="text-red-400 text-6xl mx-auto mb-2"/>
               <p class="text-white">Rails</p>
             </li>
+          </ul>
+        </div>
+      </div>
+      <div class="pb-16 pl-16 pr-16">
+        <div class="text-center mb-12 border-b-4 border-red-400 pb-20">
+          <h2 class="text-4xl text-red-400 font-bold mb-16">Contact Me</h2>
+          <ul class="grid grid-cols-3">
+            <li>
+              <FaGithub class="text-white hover:text-red-400 text-6xl mx-auto mb-2"/>
+            </li>
+            <li>
+              <MdEmail class="text-white hover:text-red-400 text-6xl mx-auto mb-2"/>
+            </li>
+            <li>
+              <AiFillTwitterCircle class="text-white hover:text-red-400 text-6xl mx-auto mb-2"/>
+            </li>
+
           </ul>
         </div>
       </div>
