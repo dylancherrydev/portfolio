@@ -104,8 +104,8 @@ function App() {
           </ul>
         </div>
       </div>
-      <div class="pb-16 pl-16 pr-16">
-        <div class="text-center mb-12 border-b-4 border-red-400 pb-20">
+      <div class="pb- pl-16 pr-16">
+        <div class="text-center border-b-4 border-red-400 pb-20">
           <h2 class="text-4xl text-red-400 font-bold mb-16">Contact Me</h2>
           <ul class="grid grid-cols-3">
             <li>
@@ -120,6 +120,9 @@ function App() {
 
           </ul>
         </div>
+      </div>
+      <div class="p-16 text-center">
+        <h3 class="text-white text-2xl">Dylan Cherry 2021 ©</h3>
       </div>
     </body>
   );
