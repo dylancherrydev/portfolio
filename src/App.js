@@ -54,7 +54,7 @@ function App() {
       <div class="pb-16 pl-16 pr-16">
         <div class="text-center mb-12 border-b-4 border-red-400 pb-20">
           <h2 class="text-4xl text-red-400 font-bold mb-16">Tech Stack</h2>
-          <ul class="grid grid-cols-4">
+          <ul class="grid grid-cols-4 mb-8">
             <li class="text-center">
               <FaJsSquare class="text-red-400 text-6xl mx-auto mb-2"/>
               <p class="text-white">JavaScript</p>
@@ -71,6 +71,8 @@ function App() {
               <FaReact class="text-red-400 text-6xl mx-auto mb-2" />
               <p class="text-white">React</p>
             </li>
+          </ul>
+          <ul class="grid grid-cols-4 mb-8">
             <li>
               <FaGithub class="text-red-400 text-6xl mx-auto mb-2" />
               <p class="text-white">GitHub</p>
@@ -88,7 +90,8 @@ function App() {
               <p class="text-white">Bootstrap</p>
             </li>
           </ul>
-          <ul class="grid grid-cols-2">
+          <ul class="grid grid-cols-4">
+            <li></li>
             <li>
               <DiRuby class="text-red-400 text-6xl mx-auto mb-2" />
               <p class="text-white">Ruby</p>
