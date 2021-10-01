@@ -51,8 +51,8 @@ function App() {
           </div>
         </div>
       </div>
-      <div class="pb-16 pl-16 pr-16">
-        <div class="text-center mb-12 border-b-4 border-red-400 pb-20">
+      <div class="pl-16 pr-16">
+        <div class="text-center mb-16 border-b-4 border-red-400 pb-20">
           <h2 class="text-4xl text-red-400 font-bold mb-16">Tech Stack</h2>
           <ul class="grid grid-cols-4 mb-8">
             <li class="text-center">
@@ -101,6 +101,11 @@ function App() {
               <p class="text-white">Rails</p>
             </li>
           </ul>
+        </div>
+      </div>
+      <div class="pb-16 pl-16 pr-16">
+        <div class="text-center mb-12 border-b-4 border-red-400 pb-20">
+          <h2 class="text-4xl text-red-400 font-bold mb-16">Contact Me</h2>
         </div>
       </div>
     </body>
