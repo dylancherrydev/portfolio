@@ -1,4 +1,4 @@
-import { FaJsSquare, FaHtml5, FaCss3Alt, FaReact, FaGitSquare, FaBootstrap, FaGithub } from "react-icons/fa";
+import { FaJsSquare, FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaBootstrap, FaGithub } from "react-icons/fa";
 import { AiOutlineConsoleSql, AiFillTwitterCircle } from "react-icons/ai";
 import { SiTailwindcss, SiRails } from "react-icons/si";
 import { DiRuby } from "react-icons/di";
@@ -75,7 +75,7 @@ function App() {
           </ul>
           <ul class="grid grid-cols-4 mb-8">
             <li>
-              <FaGitSquare class="text-red-400 text-6xl mx-auto mb-2"/>
+              <FaGitAlt class="text-red-400 text-6xl mx-auto mb-2"/>
               <p class="text-white">Git</p>
             </li>
             <li>
